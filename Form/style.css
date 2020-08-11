@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+td input{
+    margin-bottom: 20px;
+}
+
+select{
+    margin-bottom: 20px;
+}
+
+td{
+    font-family: Roboto;
+}
+
+h1{
+    font-family:Permanent Marker;
+    color:whitesmoke;
+}
+
+input[name="nama"], input[name="username"],input[name="email"] {
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 5px 15px 7px 35px;
+    transition: width 0.4s ease-in-out;
+  }
+  
+  input[name="nama"]:hover,input[name="username"]:hover,input[name="email"]:hover {
+    width: 100%;
+  }
+
+  input[type=password] {
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 5px 15px 7px 35px;
+    transition: width 0.4s ease-in-out;
+  }
+  
+  input[type=password]:hover {
+    width: 100%;
+  }
+
+table{
+    border: 1px solid rgb(255, 255, 255);
+    padding: 50px;
+    border-radius: 10px;
+    background-color: white;
+    transition: padding 2s;
+}
+
+table:hover{
+    padding:80px
+}
+
+body {
+	background-image: url("https://w.wallhaven.cc/full/ym/wallhaven-ymoo2x.jpg");
+        background-repeat:no-repeat;
+       background-size:cover;
+}
+
+input[placeholder="dd"]{
+    border: 2px solid #ccc;
+    border-radius: 4px;
+}
+
+input[placeholder="mm"]{
+    border: 2px solid #ccc;
+    border-radius: 4px;
+}
+
+input[placeholder="yyyy"]{
+    border: 2px solid #ccc;
+    border-radius: 4px;
+}
+
+input[name="negara"]{
+    transition: width 0.4s ease-in-out;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+}
+
+input[name="negara"]:hover{
+    width: 100%;
+}
+
+input[type="submit"]{
+    border: 2px solid #ccc;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+ 
